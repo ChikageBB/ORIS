@@ -16,9 +16,9 @@ public class IndexServlet extends HttpServlet {
     public void doGet(HttpServletRequest servletRequest, HttpServletResponse servletResponse) throws IOException {
         Map<String, String> params = new HashMap<>();
 
-        params.put("username", "санек пидор");
+//        params.put("username", "роман");
 
-        new TemplateHandler().handle("index.html", params,  servletResponse.getWriter());
+        new TemplateHandler().handle("index.html", servletRequest.getParameterMap(),  servletResponse.getWriter());
     }
 
     public void doPost(HttpServletRequest servletRequest,

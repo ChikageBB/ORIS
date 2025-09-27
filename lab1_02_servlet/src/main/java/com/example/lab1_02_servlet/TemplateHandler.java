@@ -11,7 +11,7 @@ import java.util.Map;
 
 
 public class TemplateHandler {
-    public void handle(String templateName, Map<String, String> map, Writer writer) {
+    public void handle(String templateName, Map<String, String[]> map, Writer writer) {
 
         /*
         1. Найти файл по имени templateName
@@ -23,9 +23,10 @@ public class TemplateHandler {
             InputStream is = getClass().getClassLoader().getResourceAsStream("templates/" + templateName);
             String template = new String(is.readAllBytes(), StandardCharsets.UTF_8);
 
-            for (Map.Entry<String, String> entry : map.entrySet()) {
+            for (Map.Entry<String, String[]> entry : map.entrySet()) {
                 String param = "${" + entry.getKey() + "}";
-                template = template.replace(param, entry.getValue());
+                String value = entry.getValue()[0];
+                template = template.replace(param, value);
             }
 
             writer.write(template);

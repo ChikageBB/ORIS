@@ -13,29 +13,42 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Objects;
 
 @WebServlet(value = "*.html")
 public class TemplateEngine  extends HttpServlet {
 
     final static Logger logger = Logger.getLogger(TemplateEngine.class);
+    private final TemplateHandler templateHandler = new TemplateHandler();
+
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         logger.debug(req.getServletPath());
 
+        Map<String, String[]> params = new HashMap();
+        req.getAttributeNames().asIterator().forEachRemaining(
+                name -> {
+                    Object value =  req.getAttribute(name);
+                    if (value != null) {
+                        params.put(name, new String[]{value.toString()});
+                    }
+                }
+        );
+
+        //url params
+        params.putAll(req.getParameterMap());
 
         String fileName = req.getServletPath().substring(1);
-        URL url = TemplateEngine.class.getClassLoader().getResource("templates/" + fileName);
+        resp.setContentType("text/html;charset=UTF-8");
 
-        String template = null;
         try {
-            template = Files.readString(Paths.get(url.toURI()));
-            resp.getWriter().write(template);
-        } catch (URISyntaxException e) {
-            logger.error("Error reading template file: " + e.getMessage());
-            resp.sendError(500, "Internal server error");
+            templateHandler.handle(fileName, params, resp.getWriter());
+        } catch (RuntimeException e) {
+            System.out.printf("%s: %s\n", fileName, e.getMessage());
         }
-
-
     }
 }

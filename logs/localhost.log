@@ -1,0 +1,37 @@
+2025-10-12 19:21:25,443 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- GET /home HTTP/1.1
+2025-10-12 19:21:25,447 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Host: localhost:8080
+2025-10-12 19:21:25,448 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Connection: keep-alive
+2025-10-12 19:21:25,448 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- sec-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "YaBrowser";v="25.8", "Yowser";v="2.5"
+2025-10-12 19:21:25,448 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- sec-ch-ua-mobile: ?0
+2025-10-12 19:21:25,448 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- sec-ch-ua-platform: "Windows"
+2025-10-12 19:21:25,448 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Upgrade-Insecure-Requests: 1
+2025-10-12 19:21:25,448 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36
+2025-10-12 19:21:25,448 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-10-12 19:21:25,448 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Sec-Fetch-Site: none
+2025-10-12 19:21:25,448 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Sec-Fetch-Mode: navigate
+2025-10-12 19:21:25,448 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Sec-Fetch-User: ?1
+2025-10-12 19:21:25,449 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Sec-Fetch-Dest: document
+2025-10-12 19:21:25,449 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Accept-Encoding: gzip, deflate, br, zstd
+2025-10-12 19:21:25,449 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Accept-Language: ru,en;q=0.9
+2025-10-12 19:21:25,449 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- 
+2025-10-12 19:21:25,449 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- end of request header
+2025-10-12 19:21:25,450 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- outputStreamjava.net.Socket$SocketOutputStream@683dbc2c
+2025-10-12 19:21:25,451 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- java.net.Socket$SocketOutputStream@683dbc2c
+2025-10-12 19:21:25,453 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- GET /home HTTP/1.1
+2025-10-12 19:21:25,453 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Host: localhost:8080
+2025-10-12 19:21:25,453 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Connection: keep-alive
+2025-10-12 19:21:25,453 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- sec-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "YaBrowser";v="25.8", "Yowser";v="2.5"
+2025-10-12 19:21:25,453 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- sec-ch-ua-mobile: ?0
+2025-10-12 19:21:25,453 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- sec-ch-ua-platform: "Windows"
+2025-10-12 19:21:25,453 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Upgrade-Insecure-Requests: 1
+2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36
+2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Sec-Fetch-Site: none
+2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Sec-Fetch-Mode: navigate
+2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Sec-Fetch-User: ?1
+2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Sec-Fetch-Dest: document
+2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Accept-Encoding: gzip, deflate, br, zstd
+2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- Accept-Language: ru,en;q=0.9
+2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- 
+2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- end of request header
+2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- outputStreamjava.net.Socket$SocketOutputStream@548e6d58

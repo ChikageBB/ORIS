@@ -21,20 +21,20 @@ public class RequestHandler {
 
             //http://localhost:8080/resource/part?name=tat&region=16
             // GET /resource/part?name=tat&region=16 HTTP1.1
-            String lineOne = in.readLine();
+            String lineOne = in.readLine(); // читаем первую сообщение запроса - GET /resource/part?name=tat&region=16 HTTP1.1
             System.out.println(lineOne);
             logger.debug(lineOne);
-            String[] components = lineOne.split(" ");
+            String[] components = lineOne.split(" "); // разбиваем по частям
             String method = components[0]; // GET / POST
             String path = components[1]; // /home/part?name=tat&region=16
 
-            int idx = path.indexOf('?');
+            int idx = path.indexOf('?'); // определяем индекс ? откуда будут идти параметры URL
 
             String resource = path;
             String query = null;
 
 
-            if (idx != -1) {
+            if (idx != -1) { // если индекс не -1 значит есть параметры
                 resource = path.substring(0, idx);
                 query = path.substring(idx + 1);
             }
@@ -44,7 +44,7 @@ public class RequestHandler {
             //[name, tat] [region, 16]
 
             if (query != null) {
-                for (String param: query.split("&")) {
+                for (String param: query.split("&")) { // разбиваем пары параметров по &
                     String[] pair = param.split("=");
                     if (pair.length > 1) {
                         params.put(pair[0], pair[1]);

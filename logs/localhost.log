@@ -35,3 +35,4 @@
 2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- 
 2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- end of request header
 2025-10-12 19:21:25,454 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- outputStreamjava.net.Socket$SocketOutputStream@548e6d58
+2025-10-12 19:23:53,949 [main] DEBUG ru.itis.inf403.IO.net.httpserver.HttpServer- null

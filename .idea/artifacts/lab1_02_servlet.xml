@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lab1_02_servlet">
+    <output-path>$PROJECT_DIR$/out/artifacts/lab1_02_servlet</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lab1_02_servlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="lab1_02_servlet/web/Web" />
+    </root>
+  </artifact>
+</component>

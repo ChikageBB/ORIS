@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lab1_03">
+    <output-path>$PROJECT_DIR$/out/artifacts/lab1_03</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lab1_03" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.beangle.jakarta:beangle-jakarta-freemarker:2.3.31" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.42" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="lab1_03/web/Web" />
+    </root>
+  </artifact>
+</component>

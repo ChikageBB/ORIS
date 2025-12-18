@@ -3,8 +3,7 @@ package ru.itis.dis403.lab04.listener;
 import jakarta.servlet.ServletContextEvent;
 import jakarta.servlet.ServletContextListener;
 import jakarta.servlet.annotation.WebListener;
-import jakarta.servlet.annotation.WebServlet;
-import ru.itis.dis403.lab04.service.DBConnection;
+import ru.itis.dis403.lab04.db.DBConnection;
 
 @WebListener
 public class DBContextListener implements ServletContextListener {

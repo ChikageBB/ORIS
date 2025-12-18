@@ -1,7 +1,7 @@
 package ru.itis.dis403.lab04.repository;
 
 import ru.itis.dis403.lab04.model.Airplane;
-import ru.itis.dis403.lab04.service.DBConnection;
+import ru.itis.dis403.lab04.db.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

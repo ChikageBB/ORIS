@@ -1,6 +1,6 @@
 package ru.itis.dis403.lab04.repository;
 
-import ru.itis.dis403.lab04.service.DBConnection;
+import ru.itis.dis403.lab04.db.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -27,7 +27,7 @@ public class AirportRepository {
                 while (resultSet.next()) {
                     String code = resultSet.getString("code");
                     String name = resultSet.getString("name");
-                    airports.add(code + "-" + name);
+                    airports.add(code);
                 }
 
             }

@@ -1,7 +1,7 @@
 package ru.itis.dis403.lab04.repository;
 
 import ru.itis.dis403.lab04.model.Flight;
-import ru.itis.dis403.lab04.service.DBConnection;
+import ru.itis.dis403.lab04.db.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,6 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
 
 
 /*
@@ -22,6 +23,7 @@ public class FlightRepository {
 
     public List<Flight> findAll(String airportCode, String type) {
         List<Flight> flights = new ArrayList<>();
+
 
         String sql;
 

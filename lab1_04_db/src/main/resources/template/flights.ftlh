@@ -30,7 +30,7 @@
         <label>Аэропорт:
             <select name = "airport" required>
                 <#list airports as airport>
-                    <option value="airport">${airport}</option>
+                    <option value=${airport}>${airport}</option>
                 </#list>
             </select>
         <label>Тип:

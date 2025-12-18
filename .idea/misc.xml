@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/lab1_08_ui" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -10,11 +13,15 @@
         <option value="$PROJECT_DIR$/lab1_03/pom.xml" />
         <option value="$PROJECT_DIR$/lab1_04/pom.xml" />
         <option value="$PROJECT_DIR$/lab1_04_db/pom.xml" />
+        <option value="$PROJECT_DIR$/lab1_05_authentifcate/pom.xml" />
+        <option value="$PROJECT_DIR$/../lab1_08_ui/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/lab1_01/lab1_11_table/pom.xml" />
         <option value="$PROJECT_DIR$/lab1_04/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </set>
     </option>
   </component>

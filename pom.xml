@@ -11,6 +11,8 @@
     <modules>
         <module>lab1_03</module>
         <module>lab1_01</module>
+        <module>lab1_10_udp</module>
+        <module>lab1_11_table</module>
     </modules>
 
     <properties>

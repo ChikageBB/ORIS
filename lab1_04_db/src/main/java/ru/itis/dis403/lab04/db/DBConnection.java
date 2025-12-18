@@ -1,4 +1,4 @@
-package ru.itis.dis403.lab04.service;
+package ru.itis.dis403.lab04.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

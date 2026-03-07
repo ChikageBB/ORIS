@@ -13,6 +13,11 @@
         <module>lab1_01</module>
         <module>lab1_10_udp</module>
         <module>lab1_11_table</module>
+        <module>lab2_01</module>
+        <module>lab2_02_spring_context_em</module>
+        <module>lab2_01_homework</module>
+        <module>lab2_03_jpa</module>
+        <module>lab2_04_spring_jpa</module>
     </modules>
 
     <properties>

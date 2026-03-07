@@ -1,4 +1,11 @@
 package ru.itis.dis403.lab2_02.orm.annotation;
 
-public class ManyToOne {
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface ManyToOne {
 }

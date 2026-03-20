@@ -35,9 +35,7 @@ public class PersonService {
                     Phone.builder()
                             .number(phoneNumber)
                             .build()
-            );
-        }
-
+            );}
 
         if ("ADMIN".equals(type)) {
             Admin admin = new Admin();

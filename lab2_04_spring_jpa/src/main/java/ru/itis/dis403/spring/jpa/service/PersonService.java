@@ -37,7 +37,6 @@ public class PersonService {
                             .build()
             );
         }
-
         if ("ADMIN".equals(type)) {
             Admin admin = new Admin();
             admin.setName(name);

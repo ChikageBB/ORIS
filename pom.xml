@@ -18,6 +18,7 @@
         <module>lab2_01_homework</module>
         <module>lab2_03_jpa</module>
         <module>lab2_04_spring_jpa</module>
+        <module>lab2_05_spring_security</module>
     </modules>
 
     <properties>

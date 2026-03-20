@@ -1,18 +1,23 @@
 package ru.itis.dis403.spring.jpa.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 
 @Data
-@RequiredArgsConstructor
-@AllArgsConstructor
 @Builder
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Table(name = "Phone")
 public class Phone {
+
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "phone_number")
     private String number;
 
+
 }
+

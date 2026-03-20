@@ -1,22 +1,15 @@
 package ru.itis.dis403.spring.jpa.entity;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import ru.itis.dis403.jpa.entity.Person;
 
 @Getter
 @Setter
 @Entity
+@Table(name = "client")
 public class Client extends Person {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
     private String address;
 }

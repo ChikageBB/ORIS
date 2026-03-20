@@ -1,4 +1,4 @@
-package ru.itis.dis403.spring.jpa.config;
+package ru.itis.dis403.spring.security.config;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -19,8 +19,8 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories("ru.itis.dis403.spring.jpa.repository")
-@ComponentScan("ru.itis.dis403.spring.jpa")
+@EnableJpaRepositories("ru.itis.dis403.spring.security.repository")
+@ComponentScan("ru.itis.dis403.spring.security")
 public class Config {
 
     @Bean

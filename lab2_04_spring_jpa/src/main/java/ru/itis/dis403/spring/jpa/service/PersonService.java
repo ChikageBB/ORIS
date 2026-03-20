@@ -53,6 +53,5 @@ public class PersonService {
             client.setPhones(Set.of(phone));
             personRepository.save(client);
         }
-
     }
 }

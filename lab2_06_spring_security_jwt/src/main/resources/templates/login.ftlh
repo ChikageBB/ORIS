@@ -137,6 +137,7 @@
                 show_bookings();
             });
     }
+
 </script>
 </body>
 </html>

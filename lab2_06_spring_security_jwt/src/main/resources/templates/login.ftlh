@@ -19,7 +19,6 @@
         <table id="booking_table"></table>
     </div>
 </div>
-
 <div id="booking_data" style="display:none; margin-top:20px;">
     <h3>Редактирование бронирования</h3>
     <input type="hidden" id="edit_id"/>

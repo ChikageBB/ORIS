@@ -20,7 +20,6 @@ spring:
   security:
     filter:
       dispatcher-types: REQUEST, ERROR, ASYNC
-
   datasource:
     driver-class-name: org.postgresql.Driver
     password: 123

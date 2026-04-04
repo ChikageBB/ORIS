@@ -1,0 +1,30 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /
+
+jwt:
+  secret: secretikkhsd8ouu1234128937918912318768723694688123487678123    #${JWT_SECRET}
+  expiration: 86400000 # 1 ????? (? ?????????????)
+
+spring:
+  freemarker:
+    suffix: .ftlh
+    template-loader-path: classpath:/templates
+    request-context-attribute: rc
+  mvc:
+    static-path-pattern: /static/**
+    favicon:
+      enabled: false
+
+  security:
+    filter:
+      dispatcher-types: REQUEST, ERROR, ASYNC
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 123
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/lab2_06
+
+

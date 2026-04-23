@@ -13,24 +13,6 @@ public class MachineStatusService {
     private Long startTime;
 
     public MachineStatusService() {
-        MachineStatus status1 = new MachineStatus();
-        status1.setTemp1(12.3);
-        status1.setTemp2(12.3);
-        status1.setTemp3(12.3);
-        status1.setPressure(2.5);
-        status1.setResource(100.);
-
-        statusMap.put(1,status1);
-
-        MachineStatus status2 = new MachineStatus();
-        status2.setTemp1(12.3);
-        status2.setTemp2(12.3);
-        status2.setTemp3(12.3);
-        status2.setPressure(2.5);
-        status2.setResource(100.);
-
-        statusMap.put(2,status2);
-
         startTime = new Date().getTime();
     }
 
@@ -47,4 +29,7 @@ public class MachineStatusService {
         return ms;
     }
 
+    public void updateStatus(Integer id, MachineStatus machineStatus) {
+        statusMap.put(id, machineStatus);
+    }
 }

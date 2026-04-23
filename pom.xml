@@ -19,6 +19,8 @@
         <module>lab2_03_jpa</module>
         <module>lab2_04_spring_jpa</module>
         <module>lab2_05_spring_security</module>
+        <module>nats_homework</module>
+        <module>lab2_09_innner_service</module>
     </modules>
 
     <properties>

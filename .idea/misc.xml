@@ -18,6 +18,10 @@
         <option value="$PROJECT_DIR$/lab1_01/lab2_06_spring_security_jwt/pom.xml" />
         <option value="$PROJECT_DIR$/lab2_06_spring_security_jwt/pom.xml" />
         <option value="$PROJECT_DIR$/lab2_07_docker/pom.xml" />
+        <option value="$PROJECT_DIR$/lab2_07_broker/pom.xml" />
+        <option value="$PROJECT_DIR$/nats_homework/weather-service/pom.xml" />
+        <option value="$PROJECT_DIR$/nats_homework/weather-publisher/pom.xml" />
+        <option value="$PROJECT_DIR$/lab2_09_innner_service/java-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

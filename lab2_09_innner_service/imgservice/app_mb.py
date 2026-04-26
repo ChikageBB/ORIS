@@ -12,7 +12,6 @@ async def main():
         try:
             print(f"Получен запрос: {msg.data.decode()}")
             request_data = json.loads(msg.data.decode())
-
             response = {
                 "status": "success",
                 "received": request_data,

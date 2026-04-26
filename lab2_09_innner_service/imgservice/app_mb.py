@@ -11,7 +11,6 @@ async def main():
     async def request_handler(msg: Msg):
         try:
 
-
             print(f"Получен запрос: {msg.data.decode()}")
             request_data = json.loads(msg.data.decode())
             response = {

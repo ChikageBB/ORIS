@@ -21,6 +21,7 @@
         <module>lab2_05_spring_security</module>
         <module>nats_homework</module>
         <module>lab2_09_innner_service</module>
+        <module>lab2_10_oauth_service</module>
     </modules>
 
     <properties>
